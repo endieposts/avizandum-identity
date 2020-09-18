@@ -10,6 +10,9 @@ import java.security.Principal;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+
 @Controller
 public class WebController {
 
@@ -18,6 +21,12 @@ public class WebController {
 
     @GetMapping(path = "/")
     public String index() {
+        return "external";
+    }
+
+    @GetMapping(path = "/logout")
+    public String logout(HttpServletRequest request) throws ServletException {
+        request.logout();
         return "external";
     }
 

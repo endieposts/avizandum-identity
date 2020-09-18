@@ -21,6 +21,16 @@
         <div class="well">
             <b>Enter the intranet: </b><a th:href="@{/customers}">customers</a>
         </div>
+
+        <div class="well">
+            <b>See your own info:</b><a th:href="@{/users}">User info</a>
+        </div>
+
+        <div>
+            <p>
+                <a href="/logout">Logout</a>
+            </p>
+        </div>
     </div>
     <div id="pagefoot" th:include="layout :: footerFragment">Footer
     </div>
