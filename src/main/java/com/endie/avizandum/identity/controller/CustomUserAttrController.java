@@ -1,4 +1,4 @@
-package com.avizandum.identity.controller;
+package com.endie.avizandum.identity.controller;
 
 import java.security.Principal;
 import java.util.Map;

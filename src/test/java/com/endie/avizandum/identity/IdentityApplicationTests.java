@@ -1,4 +1,4 @@
-package com.avizandum.identity;
+package com.endie.avizandum.identity;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

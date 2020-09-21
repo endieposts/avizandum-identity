@@ -1,4 +1,4 @@
-package com.avizandum.identity.security;
+package com.endie.avizandum.identity.security;
 
 import org.keycloak.adapters.springboot.KeycloakSpringBootConfigResolver;
 import org.keycloak.adapters.springsecurity.KeycloakSecurityComponents;

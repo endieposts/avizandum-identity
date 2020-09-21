@@ -1,4 +1,4 @@
-package com.avizandum.identity.model;
+package com.endie.avizandum.identity.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

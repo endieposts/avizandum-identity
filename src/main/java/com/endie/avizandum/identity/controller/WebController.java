@@ -1,7 +1,7 @@
-package com.avizandum.identity.controller;
+package com.endie.avizandum.identity.controller;
 
-import com.avizandum.identity.model.Customer;
-import com.avizandum.identity.repository.CustomerDAO;
+import com.endie.avizandum.identity.model.Customer;
+import com.endie.avizandum.identity.repository.CustomerDAO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
